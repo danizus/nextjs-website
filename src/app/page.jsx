@@ -1,10 +1,31 @@
-import error from "./error";
+import Image from "next/image";
+import error from "./error";;
+import styles from "./home.module.css"
 
 const Home = () => {
 
 
 
-  return <div>Hello World!</div>;
+  return (
+  <div className={styles.container}>
+    <div className={styles.imgText}>
+      <h1>Creative Thoughts Agency.</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
+          blanditiis adipisci minima reiciendis a autem assumenda dolore.</p>
+          <div className={styles.buttons}>
+          <button className={styles.button}>Learn More</button>
+          <button className={styles.button}>Contact</button>
+        </div>
+        
+    </div>
+  
+       
+    <div className={styles.imgcontainer}>
+    <Image src="/hero.gif" alt="" fill className={styles.heroImg}/>
+    </div>
+
+
+  </div>);
 };
 
 export default Home;

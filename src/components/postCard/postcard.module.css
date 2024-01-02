@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+.top{
+    display: flex;
+    
+}
+.imgcontainer{
+    width: 90%;
+    height: 400px;
+    position: relative;
+}
+.img{
+    object-fit: contain;
+}
+.date{
+    font-size: 12px;
+    transform: rotate(270deg);
+}
+
+.heading{
+    margin-bottom: 20px;
+}
+.desc{
+    color: grey;
+    font-size: 14px;
+    width: 90%;
+}
+.readmore:hover{
+    text-decoration: underline;
+
+}

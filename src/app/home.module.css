@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    gap: 10px;
+    align-items:center ;
+}
+.imgcontainer{
+    width: 500px;
+height: 500px;
+    position: relative;
+    flex: 1;
+ 
+}
+.imgText{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+.button{
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.button:first-child{
+   background-color: var(--btn);
+    
+}
+.heroImg{
+    object-fit: contain;
+}
